@@ -15,7 +15,9 @@ You've been asked to refactor the HTML into a single Component and then add even
 1. Examine the html in <b>public/index.html</b> as it contains 
 the all the static HTML and when your ready to begin comment all the code. 
 1. Create a <b>data.js</b> file in **src** folder. In the **data.js** file create a new array called **images** and populate it with the 4 images found in the html. 
-2. Import **data.js** into **App.js** and map over the array to create the small images.
+2. Import **data.js** into **App.js** and map over the array to render the small images.
+3. Render the large image
+4. Add a click event to the small images that will update state and update the large image based on which small image was clicked
 
 
 Your desgn must include a single **App** component that renders all the HTML and supporting click functionality.  
