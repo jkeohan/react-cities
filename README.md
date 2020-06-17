@@ -1,6 +1,6 @@
 # React State
 
-You've been asked to refactor the HTML into a single Component and then add event listeners and state to implement the logic in this [codepen](https://codepen.io/jkeohan/pen/MWYEyMV?editors=1010) written in plain vanilla JS
+You've been asked to refactor the HTML into a single Component and then add event listeners and state to implement the logic in this [codepen](https://codepen.io/jkeohan/pen/850f8454693590e9772f8d0f6c2f44c8) written in plain vanilla JS
 
 ![Products Section](https://i.imgur.com/ojy4N8d.png)
 
