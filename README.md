@@ -26,6 +26,7 @@ the all the static HTML and when your ready to begin comment out all the code.
 - Copy all the HTML from public/html and paste it into App's return() statement. Resolve any possible errors regarding className or otherwise
 - Write some pseudocode to work through the logic
 - Think about how you can use the array's index position to keep track of which image was clicked
+- Every event listener is passed an event object and that object knows what event occured and the source of the event. 
 
 ## Bonus 1 - Traffic Light
 
