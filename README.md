@@ -12,6 +12,7 @@ You've been asked to refactor the HTML into a single Component and then add even
 
 ## Requirements
 
+1. Your desgn must include a single **App** component that renders all the HTML and supporting functionality.  
 1. Examine the html in <b>public/index.html</b> as it contains 
 the all the static HTML and when your ready to begin comment out all the code. 
 1. Create a <b>data.js</b> file in **src** folder. In the **data.js** file create a new array called **images** and populate it with the 4 images found in the html. 
@@ -20,13 +21,11 @@ the all the static HTML and when your ready to begin comment out all the code.
 4. Add a click event to the small images that will update state and update the large image based on which small image was clicked
 
 
-Your desgn must include a single **App** component that renders all the HTML and supporting click functionality.  
-
-
 ## Suggestions To Getting Started
 
 - Copy all the HTML from public/html and paste it into App's return() statement. Resolve any possible errors regarding className or otherwise
 - Write some pseudocode to work through the logic
+- Think about how you can use the array's index position to keep track of which image was clicked
 
 ## Bonus 1 - Traffic Light
 
