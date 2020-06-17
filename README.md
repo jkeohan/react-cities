@@ -17,8 +17,8 @@ You've been asked to refactor the HTML into a single Component and then add even
 the all the static HTML and when your ready to begin comment out all the code. 
 1. Create a <b>data.js</b> file in **src** folder. In the **data.js** file create a new array called **images** and populate it with the 4 images found in the html. 
 2. Import **data.js** into **App.js** and map over the array to render the small images.
-3. Render the large image
-4. Add a click event to the small images that will update state and update the large image based on which small image was clicked
+3. Render the large image and set it's initial value to the first image in the array.
+4. Add a single click event to the small images that will set state to the url of the image that was clicked. 
 
 
 ## Suggestions To Getting Started
